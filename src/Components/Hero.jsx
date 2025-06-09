@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="w-40 h-40 overflow-hidden rounded-full">
             <img
               src={profilePic}
-              alt="Profile Picture"
+              alt="Roman's portrait"
               className="w-full h-full object-cover"
             />
           </div>
