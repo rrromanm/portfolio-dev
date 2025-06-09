@@ -14,7 +14,7 @@ const techIcons = [
 ];
 
 export default function SkillMarquee() {
-  const fullList = [...techIcons, ...techIcons]; 
+  const fullList = [...techIcons, ...techIcons];
 
   return (
     <div className="overflow-hidden w-full py-4 relative">
@@ -22,7 +22,7 @@ export default function SkillMarquee() {
         {fullList.map((icon, idx) => (
           <img
             key={idx}
-            src={`/icons/${icon}`}
+            src={`${process.env.PUBLIC_URL}/icons/${icon}`}
             alt={icon}
             className="h-24 w-24 object-contain brightness-125 hover:brightness-150 transition drop-shadow-[0_0_6px_rgba(255,255,255,0.6)]"
           />
