@@ -6,10 +6,10 @@ import { Github, Linkedin, Info } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 md:auto-rows-fr gap-8">
+    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:auto-rows-auto gap-8">
         {/* Contact info */}
-        <div className="h-[40rem] bg-white/5 backdrop-blur-md rounded-lg p-6 md:row-span-2 border border-white/10 shadow-lg flex flex-col items-center justify-center text-center space-y-4">
+        <div className="md:row-span-2 h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:row-span-2 border border-white/10 shadow-lg flex flex-col items-center justify-center text-center space-y-4">
           <div className="w-40 h-40 overflow-hidden rounded-full">
             <img
               src={profilePic}
@@ -46,24 +46,24 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="w-full text-left space-y-5 text-white text-sm pt-6">
+          <div className="w-full text-left space-y-5 text-white text-base pt-6">
             <div>
-              <p className="text-white/40 text-xs">PHONE:</p>
+              <p className="text-white/40 text-sm">PHONE:</p>
               <p className="font-medium">+45 81 90 04 99</p>
             </div>
             <div>
-              <p className="text-white/40 text-xs">EMAIL:</p>
+              <p className="text-white/40 text-sm">EMAIL:</p>
               <p className="font-medium">roma.mihalonok@gmail.com</p>
             </div>
             <div>
-              <p className="text-white/40 text-xs">LOCATION:</p>
+              <p className="text-white/40 text-sm">LOCATION:</p>
               <p className="font-medium">Horsens, Denmark</p>
             </div>
           </div>
         </div>
 
         {/* About */}
-        <div className="h-[25rem] bg-white/5 backdrop-blur-md rounded-lg p-6 md:col-span-2 border border-white/10 shadow-lg">
+        <div className="h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:col-span-2 border border-white/10 shadow-lg">
           <p className="text-white/40 text-sm md:text-base">
             WELCOME!
           </p>
@@ -103,7 +103,7 @@ export default function Hero() {
         </div>
 
         {/* Languages */}
-        <div className="h-[13rem] bg-white/5 backdrop-blur-md rounded-lg p-6 md:col-span-2 border border-white/10 shadow-lg">
+        <div className="h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:col-span-2 border border-white/10 shadow-lg">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-white text-xl font-semibold">Skills</h2>
             <div className="relative group cursor-pointer">
