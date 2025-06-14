@@ -1,6 +1,7 @@
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import ProjectShowcase from "../Components/ProjectShowcase";
+import Footer from "../Components/Footer";
 
 export default function HomePage() {
     return (
@@ -8,6 +9,7 @@ export default function HomePage() {
             <Header />
             <Hero />
             <ProjectShowcase />
+            <Footer/>
         </div>
     );
 }
