@@ -1,8 +1,9 @@
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
-import ProjectShowcase from "../Components/ProjectShowcase";
-import Footer from "../Components/Footer";
 import Experience from "../Components/Experience";
+import ProjectShowcase from "../Components/ProjectShowcase";
+import TechStack from "../Components/TechStack";
+import Footer from "../Components/Footer";
 
 export default function HomePage() {
     return (
@@ -11,6 +12,7 @@ export default function HomePage() {
             <Hero />
             <Experience />
             <ProjectShowcase />
+            <TechStack />
             <Footer />
         </div>
     );
