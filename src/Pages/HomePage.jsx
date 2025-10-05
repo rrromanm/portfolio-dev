@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 
 export default function HomePage() {
     return (
-        <div className="relative w-screen h-screen">
+        <div className="relative w-full min-h-screen">
             <Header />
             <Hero />
             <Experience />

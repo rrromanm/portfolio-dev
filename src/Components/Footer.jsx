@@ -13,10 +13,10 @@ export default function Footer() {
 
         {/* Center: Navigation */}
         <nav className="flex gap-6 text-sm">
-          <a href="#about" className="hover:text-white transition">About</a>
+          <a href="#home" className="hover:text-white transition">Home</a>
+          <a href="#experience" className="hover:text-white transition">Experience</a>
           <a href="#projects" className="hover:text-white transition">Projects</a>
-          <a href="#education" className="hover:text-white transition">Education</a>
-          <a href="#contact" className="hover:text-white transition">Contact</a>
+          <a href="#tech" className="hover:text-white transition">Tech</a>
         </nav>
 
         {/* Right: Socials */}

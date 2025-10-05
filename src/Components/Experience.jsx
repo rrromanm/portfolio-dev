@@ -3,7 +3,7 @@ import { BriefcaseBusiness } from 'lucide-react';
 
 export default function Experience() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <section id="experience" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="flex items-center gap-2 pb-8">
         <BriefcaseBusiness className="w-10 h-10 text-white" />
         <span className="text-white text-4xl font-semibold">

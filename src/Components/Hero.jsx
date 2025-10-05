@@ -6,7 +6,7 @@ import { Github, Linkedin, Info } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <section id="home" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 md:auto-rows-auto gap-8">
         {/* Contact info */}
         <div className="md:row-span-2 h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:row-span-2 border border-white/10 shadow-lg flex flex-col items-center justify-center text-center space-y-4">
@@ -57,7 +57,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-white/40 text-sm">LOCATION:</p>
-              <p className="font-medium">Horsens, Denmark</p>
+              <p className="font-medium">Aarhus, Denmark</p>
             </div>
           </div>
         </div>
