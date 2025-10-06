@@ -3,8 +3,8 @@ import { techStack } from "../Data/techStack";
 
 export default function TechStack() {
   return (
-    <section id="tech" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <h2 className="text-4xl font-semibold text-white mb-4">Tech Stack</h2>
+    <section id="skills" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h2 className="text-4xl font-semibold text-white mb-4">Skills</h2>
       <p className="text-gray-400 max-w-2xl mb-10">
         From frontend frameworks to backend systems, databases, DevOps, and tools — this is my tech toolkit.
       </p>

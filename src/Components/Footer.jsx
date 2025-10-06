@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="#home" className="hover:text-white transition">Home</a>
           <a href="#experience" className="hover:text-white transition">Experience</a>
           <a href="#projects" className="hover:text-white transition">Projects</a>
-          <a href="#tech" className="hover:text-white transition">Tech</a>
+          <a href="#skills" className="hover:text-white transition">Skills</a>
         </nav>
 
         {/* Right: Socials */}

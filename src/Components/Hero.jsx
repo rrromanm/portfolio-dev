@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../Assets/profile-pic.JPG";
 import CV from "../Assets/CV.pdf";
 import SkillMarquee from "./SkillsMarquee";
-import { Github, Linkedin, Info } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -105,17 +105,7 @@ export default function Hero() {
         {/* Languages */}
         <div className="h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:col-span-2 border border-white/10 shadow-lg">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-white text-xl font-semibold">Skills</h2>
-            <div className="relative group cursor-pointer">
-              <Info
-                size={20}
-                className="text-white/70 hover:text-white transition"
-              />
-              <div className="absolute right-full top-1/2 -translate-y-1/2 mr-2 w-64 bg-white/10 text-white text-xs rounded-md p-2 opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
-                Technologies I actually have experience with — not just hello
-                world.
-              </div>
-            </div>
+            <h2 className="text-white text-xl font-semibold">Current Stack</h2>
           </div>
 
           <div className="flex space-x-6 items-center">
