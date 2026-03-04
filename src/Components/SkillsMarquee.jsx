@@ -4,13 +4,10 @@ const techIcons = [
   'react.svg',
   'javascript.svg',
   'typescript.svg',
-  'java.svg',
+  'ant-design.svg',
   'csharp.svg',
   'postgresql.svg',
-  'docker.svg',
-  'kubernetes.svg',
   'azure.svg',
-  'tailwindcss.svg',
 ];
 
 export default function SkillMarquee() {
