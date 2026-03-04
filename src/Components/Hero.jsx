@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../Assets/profile-pic.JPG";
+import profilePic from "../Assets/profile-pic.avif";
 import CV from "../Assets/CV.pdf";
 import SkillMarquee from "./SkillsMarquee";
 import { Github, Linkedin, Info } from "lucide-react";
