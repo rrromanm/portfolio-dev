@@ -1,10 +1,12 @@
 import { CodeXml } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 
-
 export default function ProjectShowcase() {
   return (
-    <section id="projects" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <section
+      id="projects"
+      className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+    >
       <div className="flex items-center gap-2 pb-8">
         <CodeXml className="w-10 h-10 text-white" />
         <span className="text-white text-4xl font-semibold">
@@ -13,6 +15,15 @@ export default function ProjectShowcase() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          image={`${process.env.PUBLIC_URL}/images/mb-plus-project.avif`}
+          title="MB Plus Benidorm"
+          description="A modern car dealership website built with Next.js, TypeScript and Java. Cloudinary as image storage and Supabase for PostgreSQL database."
+          tech={["Next.js", "TypeScript", "Java", "PostgreSQL"]}
+          year="2026"
+          link="https://github.com/rrromanm/mb-plus-levante"
+        />
+
         <ProjectCard
           image={`${process.env.PUBLIC_URL}/images/growmate.png`}
           title="GrowMate"
@@ -28,14 +39,14 @@ export default function ProjectShowcase() {
           description="A web application that allows users to search and view information about various Pokémon."
           tech={["React", "JavaScript", "Bootstrap", "Rest API"]}
           year="2025"
-          link="https://github.com/rrromanm/YapperWebApp"
+          link="https://github.com/rrromanm/Pokedex"
         />
 
         <ProjectCard
           image={`${process.env.PUBLIC_URL}/images/yapper-web-app.png`}
           title="Yapper web app"
           description="Yapper intends to provide a simple, ad-free and data collection-free social media platform."
-          tech={["Java", "gRPC","RabbitMQ", "C#", ".NET", "PostgreSQL"]}
+          tech={["Java", "gRPC", "RabbitMQ", "C#", ".NET", "PostgreSQL"]}
           year="2024"
           link="https://github.com/rrromanm/YapperWebApp"
         />
@@ -57,16 +68,6 @@ export default function ProjectShowcase() {
           year="2023"
           link="https://github.com/rrromanm/ProjectManagmentSystem"
         />
-
-        <ProjectCard
-          image={`${process.env.PUBLIC_URL}/images/flag-game.png`}
-          title="Flag Game"
-          description="Simple flag game application, where the user guesses the country flag. The application keeps up the score and automatically sets up the next flag to guess after submitting the answer."
-          tech={["React", "JavaScript", "Rest API"]}
-          year="2023"
-          link="https://github.com/rrromanm/flag-game"
-        />
-
       </div>
     </section>
   );

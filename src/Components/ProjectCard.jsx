@@ -11,19 +11,21 @@
   }) {
     return (
       <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-lg overflow-hidden flex flex-col">
-        <div className="flex justify-center items-center p-6 bg-gradient-to-br from-zinc-800 to-zinc-900">
-          <div className="bg-white rounded-lg shadow-xl p-1 rotate-[2.5deg]">
+        <div className="flex justify-center items-center p-6 h-[245px] bg-gradient-to-br from-zinc-800 to-zinc-900">
+          <div className="bg-white rounded-lg shadow-xl p-1 rotate-[2.5deg] max-w-full">
             <img
               src={image}
               alt={title}
-              className="rounded-md object-cover w-[300px] h-[185px]"
+              className="block rounded-md object-contain w-auto h-auto max-w-[300px] max-h-full"
             />
           </div>
         </div>
 
         <div className="p-6 flex flex-col justify-between flex-1">
           <div>
-            <h3 className="text-white text-xl font-semibold">{title}</h3>
+            <h3 className="text-white text-xl font-semibold leading-7 min-h-[56px] overflow-hidden">
+              {title}
+            </h3>
             <p className="text-white/60 text-sm mt-2 leading-relaxed">
               {description}
             </p>
