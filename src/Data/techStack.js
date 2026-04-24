@@ -1,7 +1,7 @@
 import {
   SiReact,
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiJavascript,
   SiTypescript,
   SiBootstrap,
@@ -61,7 +61,7 @@ export const techStack = [
     items: [
       { name: "React.js", Icon: SiReact, color: "text-[#61DAFB]" },
       { name: "HTML5", Icon: SiHtml5, color: "text-[#E34F26]" },
-      { name: "CSS3", Icon: SiCss3, color: "text-[#1572B6]" },
+      { name: "CSS3", Icon: SiCss, color: "text-[#1572B6]" },
       { name: "JavaScript", Icon: SiJavascript, color: "text-[#F7DF1E]" },
       { name: "TypeScript", Icon: SiTypescript, color: "text-[#007ACC]" },
       { name: "Bootstrap", Icon: SiBootstrap, color: "text-[#7952B3]" },
