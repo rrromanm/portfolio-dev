@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-dev/static/css/main.2ae80e2e.css",
-    "main.js": "/portfolio-dev/static/js/main.40ace86f.js",
-    "static/js/453.e510dd92.chunk.js": "/portfolio-dev/static/js/453.e510dd92.chunk.js",
-    "static/media/profile-pic.avif": "/portfolio-dev/static/media/profile-pic.b8f6713223267c9479b4.avif",
+    "main.css": "/portfolio-dev/static/css/main.e877d0d5.css",
+    "main.js": "/portfolio-dev/static/js/main.ed5d23ac.js",
+    "static/js/453.2aeca459.chunk.js": "/portfolio-dev/static/js/453.2aeca459.chunk.js",
     "static/media/CV.pdf": "/portfolio-dev/static/media/CV.5d822aae33270756dcdc.pdf",
-    "static/media/onest-latin-400-normal.woff": "/portfolio-dev/static/media/onest-latin-400-normal.d89780f98e15bbffd4f4.woff",
-    "static/media/onest-latin-400-normal.woff2": "/portfolio-dev/static/media/onest-latin-400-normal.614a13ec7b7a929e316f.woff2",
-    "static/media/onest-latin-ext-400-normal.woff": "/portfolio-dev/static/media/onest-latin-ext-400-normal.7c59310d31d903780d22.woff",
-    "static/media/onest-cyrillic-400-normal.woff": "/portfolio-dev/static/media/onest-cyrillic-400-normal.3ab039a0829f934893e6.woff",
-    "static/media/onest-latin-ext-400-normal.woff2": "/portfolio-dev/static/media/onest-latin-ext-400-normal.13f424fe88a5742399ea.woff2",
-    "static/media/onest-cyrillic-400-normal.woff2": "/portfolio-dev/static/media/onest-cyrillic-400-normal.3e27cdf55ae819e6e828.woff2",
-    "static/media/onest-cyrillic-ext-400-normal.woff": "/portfolio-dev/static/media/onest-cyrillic-ext-400-normal.c82b1d75d4ef7f225a70.woff",
-    "static/media/onest-cyrillic-ext-400-normal.woff2": "/portfolio-dev/static/media/onest-cyrillic-ext-400-normal.5d5ddc9595c529fa3701.woff2",
+    "static/media/onest-latin-400-normal.woff": "/portfolio-dev/static/media/onest-latin-400-normal.94f37a346f04436faf6c.woff",
+    "static/media/onest-latin-ext-400-normal.woff": "/portfolio-dev/static/media/onest-latin-ext-400-normal.4dd2ab748b92525b0d9e.woff",
+    "static/media/onest-latin-400-normal.woff2": "/portfolio-dev/static/media/onest-latin-400-normal.011a9be87a2585735f05.woff2",
+    "static/media/onest-math-400-normal.woff": "/portfolio-dev/static/media/onest-math-400-normal.12f4b7f023bf42b7e2b8.woff",
+    "static/media/onest-latin-ext-400-normal.woff2": "/portfolio-dev/static/media/onest-latin-ext-400-normal.a5f7db98873c48593b8e.woff2",
+    "static/media/onest-math-400-normal.woff2": "/portfolio-dev/static/media/onest-math-400-normal.bc72a159ba4c0c0f0722.woff2",
+    "static/media/onest-symbols-400-normal.woff": "/portfolio-dev/static/media/onest-symbols-400-normal.38dafba284f9b1c04a9b.woff",
+    "static/media/onest-cyrillic-400-normal.woff": "/portfolio-dev/static/media/onest-cyrillic-400-normal.a269f13d4b47c9943571.woff",
+    "static/media/onest-symbols-400-normal.woff2": "/portfolio-dev/static/media/onest-symbols-400-normal.688cb7a6086a9e05f9ee.woff2",
+    "static/media/onest-cyrillic-400-normal.woff2": "/portfolio-dev/static/media/onest-cyrillic-400-normal.71ee90d83e332b575f95.woff2",
+    "static/media/onest-vietnamese-400-normal.woff": "/portfolio-dev/static/media/onest-vietnamese-400-normal.d4178ec72dd31e6d5e46.woff",
+    "static/media/onest-cyrillic-ext-400-normal.woff": "/portfolio-dev/static/media/onest-cyrillic-ext-400-normal.458714d889535540f503.woff",
+    "static/media/onest-vietnamese-400-normal.woff2": "/portfolio-dev/static/media/onest-vietnamese-400-normal.6a6664e0c5298757db32.woff2",
+    "static/media/onest-cyrillic-ext-400-normal.woff2": "/portfolio-dev/static/media/onest-cyrillic-ext-400-normal.b1efe34c12e12bf2d183.woff2",
     "index.html": "/portfolio-dev/index.html",
-    "main.2ae80e2e.css.map": "/portfolio-dev/static/css/main.2ae80e2e.css.map",
-    "main.40ace86f.js.map": "/portfolio-dev/static/js/main.40ace86f.js.map",
-    "453.e510dd92.chunk.js.map": "/portfolio-dev/static/js/453.e510dd92.chunk.js.map"
+    "main.e877d0d5.css.map": "/portfolio-dev/static/css/main.e877d0d5.css.map",
+    "main.ed5d23ac.js.map": "/portfolio-dev/static/js/main.ed5d23ac.js.map",
+    "453.2aeca459.chunk.js.map": "/portfolio-dev/static/js/453.2aeca459.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ae80e2e.css",
-    "static/js/main.40ace86f.js"
+    "static/css/main.e877d0d5.css",
+    "static/js/main.ed5d23ac.js"
   ]
 }
