@@ -1,5 +1,4 @@
 import React from "react";
-import profilePic from "../Assets/profile-pic.avif";
 import CV from "../Assets/CV.pdf";
 import SkillMarquee from "./SkillsMarquee";
 import { Github, Linkedin } from "lucide-react";
@@ -12,7 +11,7 @@ export default function Hero() {
         <div className="md:row-span-2 h-full bg-white/5 backdrop-blur-md rounded-lg p-6 md:row-span-2 border border-white/10 shadow-lg flex flex-col items-center justify-center text-center space-y-4">
           <div className="w-40 h-40 overflow-hidden rounded-full">
             <img
-              src={profilePic}
+              src={`${process.env.PUBLIC_URL}/images/profile-pic.avif`}
               alt="Roman's portrait"
               className="w-full h-full object-cover"
             />
